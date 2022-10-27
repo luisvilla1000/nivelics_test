@@ -15,6 +15,7 @@ Este es un test para el cargo de desarollador PHP en la empresa NIVELICS, desaro
 - composer update / composer install
 - php artisan migrate --seed
 - php artisan serve
+- php artisan test (Este es para ejecutar los tests a los endpoints)
 
 ## CREDENCIALES PRECARGADAS
 - MANAGER: <br>
@@ -40,5 +41,5 @@ Crea un candidato
 # rutas de agent
 GET => api/lead/{id} <br>
 Muestra el candidato si está suscrito a el, si no, muestra un error de no autorizado
-
 ##
+
